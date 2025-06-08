@@ -36,22 +36,22 @@ Body:
 
 User
 
-id (auto)
-email (unique, required)
-phone_number (unique, optional)
-country_code (default = "+91")
-full_name
-password (hashed)
-date_joined (auto_add)
+id (auto), 
+email (unique, required), 
+phone_number (unique, optional), 
+country_code (default = "+91"), 
+full_name, 
+password (hashed), 
+date_joined (auto_add), 
 
 Expense
 
-id (auto)
-user (foreign key to User)
-amount (decimal)
-category (string)
-date (date)
-description (string)
+id (auto),
+user (foreign key to User),
+amount (decimal),
+category (string),
+date (date),
+description (string),
 
 🚀 Getting Started
 
